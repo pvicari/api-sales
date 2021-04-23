@@ -23,5 +23,9 @@ php artisan key:generate
 
 Após isso, acesse a aplicação pelo https://localhost:8000/
 
+Obs: Para colocar a schedule de email para funcionar ẽ necessário iniciar com o comando:
 
+```
+php artisan schedule:run 
+```
 
